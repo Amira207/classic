@@ -59,7 +59,7 @@ $(document).ready(function () {
         $(this).addClass("selected").siblings().removeClass("selected");
     });
     
-   $("html").niceScroll({
+  // $("html").niceScroll({
        zIndex: 9999999
    });
 });
