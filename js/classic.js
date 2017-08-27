@@ -60,6 +60,6 @@ $(document).ready(function () {
     });
     
   // $("html").niceScroll({
-       zIndex: 9999999
-   });
+      // zIndex: 9999999
+  // });
 });
