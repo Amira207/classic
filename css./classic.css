@@ -1,0 +1,655 @@
+/* Start Global */
+body
+{
+    
+}
+   html,body
+{
+   
+   
+}
+
+
+.container
+
+{
+    width: 1200px;
+    margin: auto;
+}
+*
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* End Global */
+/* start navbar */
+.navbar
+{
+   height: 0;
+    color: #EEE;
+    background: transparent;
+    z-index: 2;
+    position: relative;  
+   
+}
+.navbar .brand
+{
+    float:left;
+    width: 40%;
+    text-transform: uppercase;
+    color: #c12587;
+    font-size: 30px;
+}
+
+.navbar h2
+{
+    margin-top: 23px;
+}
+.navbar .links
+{
+    float: left;
+    width: 60%;
+    margin-top: 16px;
+}
+
+.navbar .links li 
+{
+    display: inline-block;
+    margin: 10px 10px;
+    border-bottom: 1px solid transparent;
+    font-size: 25px;
+    
+}
+.navbar .links li  a
+{
+    color: #FFF;
+    text-decoration: none;
+}
+.navbar .links li.active a,
+.navbar .links li a:hover
+{
+    color: #c12587;
+    border-bottom: 1px solid #c12587; 
+}
+
+
+
+
+
+/* end navbar */
+/* start header */
+.header
+{
+    background-image: url("../images/1.jpg");
+    margin-top: 0px;
+    background-size: cover;
+  
+    position: relative;
+}
+
+.header .overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: : 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.header .bx-wrapper
+{
+    box-shadow: none;
+    border: 0;
+    background: none;
+    margin: 0 auto;
+    height: 100%
+    
+}
+
+.header .bx-viewport
+{
+    text-align: center;
+    color: #FFF;
+    height: 100% !important
+    
+}
+.header ul.bxslider
+{height: 100%}
+.header ul.bxslider li
+{
+    display: block;
+    
+}
+
+.header ul.bxslider li h2
+{
+    font-size: 60px;
+    margin-bottom: 20px
+}
+
+.header ul.bxslider li h2 span
+{
+    color: #c12587
+}
+
+
+/* end header */
+/*start services*/
+.services
+{
+   
+    padding-top: 20px; 
+}
+.services h2
+{
+    margin-bottom: 90px;
+}
+.services h2 span
+{
+    border-bottom: solid 1px;
+}
+
+.services .ser-content
+{
+    overflow: hidden;
+}
+
+.services .first
+{
+    width:33.333%;
+    padding: 10px;
+    
+}
+.services .first li
+{
+   float: left;
+    width:75px;
+    display: inline-block;
+}
+
+.services  .first .text
+{
+    padding-left: 10px;
+    display: inline-block;
+    float: left;
+    width:200px;
+}
+.services  .first .text h3
+{
+    margin-top: 3px;
+}
+
+.hr{
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .services .first
+    {
+        width: 50%;
+    }
+    .ser-contents
+    {
+        padding-left: 50px;
+    }
+    hr
+    {
+       
+    }
+}
+
+@media(max-width: 767px)
+{
+    .services .first
+    {
+        width: 100%;
+        margin-bottom: 27px;
+    }
+    
+    .services .first .text
+    {
+        width:332px;
+    }
+    hr
+    {
+      
+    }
+}
+
+
+
+
+/*End services*/
+/*start our team*/
+.our-team
+{
+    padding-top: 41px;
+   
+}
+.our-team span
+{
+    border-bottom: 1px solid;
+}
+.our-team .box:not(:first-child) img
+{
+    width: 100%;
+    height: 100%
+    
+}
+.our-team .box
+{
+    float: left
+
+}
+.our-team .box:first-child
+{
+    width: 35%;
+    position: relative;
+}
+.our-team .box:not(:first-child)
+{
+    width: 15%;
+    margin-left: 5px;
+    position: relative;
+}
+
+.our-team .box:not(
+:first-child) .overlay
+{
+    width: 100%;
+    height: 98%;
+    top:0;
+    left: :0;
+    position: absolute;
+    bottom: 0;
+    color: transparent;
+    line-height: 130px;
+    text-align: center;
+  
+}
+.our-team .box .overlay:hover
+{
+    background: rgba(0, 0, 0, 0.5);
+color: white;
+    
+}
+
+
+
+@media(max-width: 767px) {
+    .our-team .team-text,
+    .our-team .team-images
+    {
+        float: none;
+    }
+    .team-images img
+{
+   float:none;
+    display: block;
+    margin-bottom:10px;
+  
+    
+    
+}
+}
+
+
+
+/*End our team*/
+/*start testimonials*/
+.testim
+{
+    background: url(../images/webdesign2.jpg);
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.testim .t-overlay
+{
+    position: absolute;
+    top:0;
+     left:0;
+    bottom: 0;
+    right:0px;
+    width:100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    color:white;
+    
+}
+
+.testim span
+{
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+
+.testim h2
+{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.testim p
+{
+    font-size: 32px;
+}
+
+.testim q
+{
+    font-size: 28px
+}
+
+.testim .slider div
+{
+    display: none;
+}
+.testim .slider .active
+{
+    display: block;
+}
+
+
+/*End testimonials*/
+/*Start projects*/
+.projects
+{
+    padding : 60px 0;
+  
+    
+}
+ .projects span
+{
+    border-bottom: 1px solid;
+        padding-bottom:10px;
+
+}
+.projects h2
+{
+}
+
+.projects ul li
+{
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: orange;
+}
+.projects ul li.selected
+{
+    background: white;
+    
+}
+.projects .gallery
+{
+    overflow: hidden;
+}
+.projects .row div
+{
+    width:32%;
+    float: left;
+    position: relative;
+}
+.projects .row .image:nth-child(2) {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.projects .gallery .row
+{
+    margin-bottom: 20px;
+    height: 175px;
+}
+.projects img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.projects .row .over
+{
+    width: 100%;
+    height: 98%;
+    top:0;
+    left: :0;
+    position: absolute;
+    bottom: 0;
+    color: transparent;
+    line-height: 170px;
+    text-align: center;
+  
+}
+.projects .row .over:hover
+{
+    background: rgba(0, 0, 0, 0.5);
+color: white;
+    
+}
+
+.projects .row i
+{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.projects .mix
+{
+    display: none;
+}
+.projects li 
+{
+    cursor:pointer;
+}
+
+/*end projects*/
+
+/*start footer*/
+.footer
+{
+    background: black;
+    color: white;
+   
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.footer .col
+{
+    width: 25%;
+    float: left;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+.footer p
+{
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+.col i
+{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid;
+    width: 40px;
+}
+
+.col .tags span
+{
+    border:1px solid;
+   margin-bottom: 10px;
+    padding:10px;
+    display:inline-block;
+}
+.recent div {
+    overflow: hidden;
+    height: 66px;
+}
+.recent div img
+{
+    float: left;
+    margin-right: 10px;
+    
+}
+
+.recent div h4 
+{
+    margin: 8px 0;
+}
+.blog li
+{
+   list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+.recent .clearboth
+{
+    height: 0px;
+}
+.copyright
+{
+    margin-top: 30px;
+}
+/*End footer*/
+
+
+
+
+
+/*start framework*/
+
+.special-heading
+{
+    position: relative;
+}
+
+
+
+.img-circle
+{
+    border-radius: 50%;
+}
+
+.list-unstyled {
+    list-style: none;
+}
+.img-thumbnail
+{
+    background: #FFF;
+    padding: 3px;
+    border: 1px solid #CCC;
+}
+
+.responsive-image {
+    width: 100%;
+    height: 100%;
+    border: solid 4px black;
+}
+
+.res-p {
+    line-height: 1.8em;
+    font-size: 28px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+    display: none;
+}
+
+.float-left {
+    float: left
+}
+
+.float-right {
+    float: right
+}
+
+.h1 {
+    font-size: 2em;
+}
+ .list-unstyled {
+    padding: 0;
+    margin: 0;
+    list-style: none
+  }
+
+@media (max-width: 767px) {
+    .visible-xs {
+        display: block !important
+    }
+    .res-p {
+        text-align: center;
+        font-size: 18px;
+    }
+    .hidden-xs
+    {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+    .visible-sm {
+        display: block !important
+    }
+    .hidden-sm
+    {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+    .visible-md {
+        display: block !important
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170x;
+    }
+    .visible-lg {
+        display: block !important
+    }
+}
+
+
+/*end framework*/
