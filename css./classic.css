@@ -8,7 +8,10 @@ body
    
    
 }
-
+.navbar, .header, .services, .our-team, .testim, .projects, .footer
+{
+    min-width: 1200px;
+}
 
 .container
 
