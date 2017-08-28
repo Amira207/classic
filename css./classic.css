@@ -494,7 +494,7 @@ color: white;
     width: 40px;
 }
 
-.footer .tags span
+.col .tags span
 {
     border:1px solid;
    margin-bottom: 10px;
@@ -531,7 +531,6 @@ color: white;
     margin-top: 30px;
 }
 /*End footer*/
-
 
 
 
@@ -624,9 +623,7 @@ color: white;
 }
 
 @media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
+    
     .visible-sm {
         display: block !important
     }
@@ -634,21 +631,20 @@ color: white;
     {
         display: none;
     }
+   
+   
+
 }
 
 @media (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
+   
     .visible-md {
         display: block !important
     }
 }
 
 @media (min-width: 1200px) {
-    .container {
-        width: 1170x;
-    }
+    
     .visible-lg {
         display: block !important
     }
